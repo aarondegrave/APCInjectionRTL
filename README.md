@@ -14,3 +14,7 @@ This can be done multiple ways, I chose to load the executable as a base64 strin
 $b64 = "TVqQA..."
 $assembly = [System.Reflection.Assembly]::Load([System.Convert]::FromBase64String($b64))
 [PInject.Program]::Main()
+
+
+# Tested
+Tested on Windows 10 version 22H2
